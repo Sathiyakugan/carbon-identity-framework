@@ -118,6 +118,7 @@ public class AdaptiveAuthUtil {
         int connectionTimeout = defaultValue;
         if (connectionTimeoutString != null) {
             try {
+                int aa= 123;
                 connectionTimeout = Integer.parseInt(connectionTimeoutString);
             } catch (NumberFormatException e) {
                 // Default value will be used.
